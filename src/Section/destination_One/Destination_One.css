@@ -1,0 +1,113 @@
+#destination_One{
+    padding-top: 148px;
+    padding-left: 90px;
+    position: relative;
+    z-index: 999;
+}
+.destination_One_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+}
+.destination_contant{
+    width: 560px;
+}
+#destination_One .sec_subtittle{
+    color: #000;
+}
+#destination_One .sec_tittle{
+    color: #036E8A;
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+#destination_One .paragraph{
+    color: #000;
+}
+
+.destination_video{
+    width: 508px;
+    height: 369;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.destination_video img{
+    width: 100%;
+}
+.destination_video_icon{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.destination_video_icon svg{
+    color: #036E8A;
+    font-family: 22px;
+}
+.book_now{
+    margin-top: 72px;
+    margin-bottom: 90px;
+    width: 100%;
+    border: 2px solid #036E8A;
+    border-radius: 10px;
+    padding: 54px 64px 50px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location_price{
+    display: flex;
+    gap: 166px;
+    margin-right: 83px;
+}
+.location_price .location h4{
+    color: #036E8A;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.star_wrapper{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 14px;
+}
+.star_wrapper svg{
+    font-size: 27px;
+    color: #FF8000;
+}
+.star_wrapper svg:last-child{
+    opacity: 0.5;
+}
+.location_price .price .paragraph{
+    color: #000;
+}
+
+.location_price .price span{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    color: #036E8A;
+}
+.location_price .location{
+    position: relative;
+}
+.location_price .location::after{
+    position: absolute;
+    content: " ";
+    top: 10px;
+    right: -70px;
+    height: 90px;
+    width: 4px;
+    background-color: #FF8000;
+}

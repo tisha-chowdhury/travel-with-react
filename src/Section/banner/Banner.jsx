@@ -1,6 +1,9 @@
 import React from 'react'
 import './Banner.css'
-import bannerImg from '../../../assets/images/background_img.jpg'
+import bannerImg from '../../assets/images/background_img.jpg'
+import location from '../../assets/images/location_dot.png'
+import { IoMdSearch } from "react-icons/io";
+
 
 const Banner = () => {
   return (
@@ -16,11 +19,10 @@ const Banner = () => {
                     <div className="banner_inner">
                         <div className="banner_search">
                             <input type="text" placeholder="Enter Your Location"/>
-                            <i className="fa-solid fa-magnifying-glass"></i>
-
+                            <IoMdSearch />
                         </div>
                         <div className="map_circle">
-                            <img src="./images/location dot.png" alt="location dot"/>
+                            <img src={location} alt="location"/>
                         </div>
                     </div>
                 </form>

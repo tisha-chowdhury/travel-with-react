@@ -1,6 +1,11 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
 import './Navbar.css'
+import { IoChatbox } from "react-icons/io5";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa6";
+
 
 const Navbar = () => {
   return (
@@ -34,16 +39,16 @@ const Navbar = () => {
                 </div>
                 <div className="nav_actions">
                     <a href="#" className="nav_actions_item">
-                        <i className="fa-solid fa-message"></i>
+                        <IoChatbox />
                     </a>
                     <a href="#" className="nav_actions_item">
-                        <i className="fa-solid fa-location-arrow"></i>
+                        <FaTelegramPlane />
                     </a>
                     <a href="#" className="nav_actions_item">
-                        <i className="fa-solid fa-heart"></i>
+                        <FaHeart />
                     </a>
                     <a href="#" className="nav_actions_item">
-                        <i className="fa-solid fa-plus"></i>
+                        <FaPlus />
                     </a>
                 </div>
             </div>

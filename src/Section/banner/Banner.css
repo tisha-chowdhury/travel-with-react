@@ -48,7 +48,7 @@
 .banner_search input::placeholder{
     color: #036E8A;
 }
-.banner_search i{
+.banner_search svg{
     color: #036E8A;
     font-size: 28px;
     position: absolute;

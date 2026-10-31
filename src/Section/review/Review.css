@@ -1,0 +1,84 @@
+.review_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 72px;
+    row-gap: 77px;
+    margin-top: 111px;
+}
+.review_item{
+    width: 538px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 40px 59px 41px 40px;
+    box-shadow: 0px 0px 65px 15px rgba(0,0,0,0.1);
+    transition: all linear 0.5s;
+}
+.review_img{
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.review_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review_ditails{
+    margin-top: 26.5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.review_ditails h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #036E8A;
+    line-height: normal;
+}
+.review_ditails h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #262525;
+    line-height: normal;
+}
+.review_rating{
+    margin-top: 8px;
+    margin-bottom: 22px;
+    color:#FF8000 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+.review_ditails .paragraph{
+    color: #000;
+}
+.review_item:nth-child(odd):hover{
+    background-color: #036E8A;
+}
+.review_item:hover .review_img{
+        border: 1px solid #fff;
+} 
+.review_item:hover .review_ditails h4, .review_item:hover .review_ditails h5, .review_item:hover .review_rating,.review_item:hover .review_ditails .paragraph{
+    color: #fff;
+}
+
+.review_item:nth-child(even):hover{
+    background-color: #FF8000;
+}
+.review_shape{
+    position: relative;
+    z-index: -999;
+}
+.review_shape img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -61.5%);
+    
+}

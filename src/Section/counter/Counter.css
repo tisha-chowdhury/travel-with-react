@@ -1,0 +1,28 @@
+#counter{
+    margin-top: 112px;
+    margin-bottom: 97px;
+    padding-top: 91px;
+    padding-bottom: 120px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.counter_item{
+    text-align: center;
+}
+.counter_item h3{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    color: #707070;
+}
+.counter_item span{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    color: #707070;
+}

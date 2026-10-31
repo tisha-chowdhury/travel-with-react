@@ -1,0 +1,50 @@
+#brand{
+    padding-top: 128px;
+    padding-bottom: 119px;
+}
+.brand_wrapper{
+    border: 3px solid #036E8A;
+    border-radius: 12px;
+    padding: 72px 74px 74px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand_item{
+    position: relative;
+}
+.brand_item.one{
+    width: 120px;
+    height: 73.26px;
+}
+.brand_item.two{
+    width: 188.11px;
+    height: 52.33px;
+}
+.brand_item.three{
+    width: 174.41px;
+    height: 55.29px;
+}
+.brand_item.four{
+    width: 150.52px;
+    height: 43.68px;
+}
+.brand_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.brand_item::after{
+    position: absolute;
+    content: " ";
+    width: 3px;
+    height: 73px;
+    background-color: #036E8A;
+    right: -61px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.brand_item:last-child::after{
+    right: 0;
+    background: transparent;
+}
